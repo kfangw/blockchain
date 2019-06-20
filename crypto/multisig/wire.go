@@ -1,10 +1,10 @@
 package multisig
 
 import (
-	amino "github.com/tendermint/go-amino"
 	"github.com/kfangw/blockchain/crypto"
 	"github.com/kfangw/blockchain/crypto/ed25519"
 	"github.com/kfangw/blockchain/crypto/secp256k1"
+	amino "github.com/tendermint/go-amino"
 )
 
 // TODO: Figure out API for others to either add their own pubkey types, or

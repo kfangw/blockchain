@@ -4,12 +4,12 @@ import (
 	"os"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
-	"github.com/stretchr/testify/require"
 	"github.com/kfangw/blockchain/crypto"
 	"github.com/kfangw/blockchain/crypto/ed25519"
 	"github.com/kfangw/blockchain/crypto/multisig"
 	"github.com/kfangw/blockchain/crypto/secp256k1"
+	"github.com/stretchr/testify/assert"
+	"github.com/stretchr/testify/require"
 )
 
 type byter interface {

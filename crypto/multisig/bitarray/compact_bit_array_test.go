@@ -5,9 +5,9 @@ import (
 	"math/rand"
 	"testing"
 
+	cmn "github.com/kfangw/blockchain/libs/common"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
-	cmn "github.com/kfangw/blockchain/libs/common"
 )
 
 func randCompactBitArray(bits int) (*CompactBitArray, []byte) {

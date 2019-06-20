@@ -7,8 +7,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/stretchr/testify/assert"
 	cmn "github.com/kfangw/blockchain/libs/common"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestPanicOnMaxLength(t *testing.T) {

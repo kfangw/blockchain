@@ -7,8 +7,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pkg/errors"
 	"github.com/kfangw/blockchain/libs/log"
+	"github.com/pkg/errors"
 )
 
 func TestTracingLogger(t *testing.T) {

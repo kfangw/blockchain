@@ -9,8 +9,8 @@ import (
 
 	"github.com/syndtr/goleveldb/leveldb/opt"
 
-	"github.com/stretchr/testify/require"
 	cmn "github.com/kfangw/blockchain/libs/common"
+	"github.com/stretchr/testify/require"
 )
 
 func TestNewGoLevelDB(t *testing.T) {

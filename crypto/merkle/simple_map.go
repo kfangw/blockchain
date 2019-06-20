@@ -3,9 +3,9 @@ package merkle
 import (
 	"bytes"
 
-	amino "github.com/tendermint/go-amino"
 	"github.com/kfangw/blockchain/crypto/tmhash"
 	cmn "github.com/kfangw/blockchain/libs/common"
+	amino "github.com/tendermint/go-amino"
 )
 
 // Merkle tree from a map.

@@ -4,8 +4,8 @@ import (
 	"crypto/sha256"
 	"testing"
 
-	"github.com/stretchr/testify/assert"
 	"github.com/kfangw/blockchain/crypto/tmhash"
+	"github.com/stretchr/testify/assert"
 )
 
 func TestHash(t *testing.T) {
