@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"github.com/kfangw/blockchain/abci/example/kvstore"
+	"github.com/kfangw/blockchain/abci/kvstore"
 	"github.com/kfangw/blockchain/abci/server"
 	"github.com/kfangw/blockchain/abci/types"
 	"github.com/kfangw/blockchain/libs/log"
@@ -29,7 +29,7 @@ func TrapSignal(logger logger, cb func()) {
 	}()
 }
 
-func runService() error{
+func runService() error {
 	logger := log.NewTMLogger(log.NewSyncWriter(os.Stdout))
 
 	// Create the application - in memory or persisted to disk
@@ -56,6 +56,6 @@ func runService() error{
 	select {}
 }
 
-func main(){
+func main() {
 	runService()
 }

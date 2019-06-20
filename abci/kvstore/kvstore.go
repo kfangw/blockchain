@@ -5,8 +5,8 @@ import (
 	"encoding/binary"
 	"encoding/json"
 	"fmt"
+	"github.com/kfangw/blockchain/abci/code"
 
-	"github.com/kfangw/blockchain/abci/example/code"
 	"github.com/kfangw/blockchain/abci/types"
 	cmn "github.com/kfangw/blockchain/libs/common"
 	dbm "github.com/kfangw/blockchain/libs/db"
